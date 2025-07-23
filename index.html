@@ -4,14 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>2nd Assignment</title>
+    <!-- font-awesome link -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- tailwind cdn -->
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
         <!-- nav area-- -->
-        <nav class="flex justify-between mx-auto max-w-[1440px] items-center mt-[30px]">
+        <nav class="flex justify-between mx-auto max-w-[1140px] items-center mt-[30px]">
             <img src="./assets/logo.png" alt="">
             <ul class="flex gap-x-[48px]">
                 <li class="text-[rgba(37, 36, 50, 1)] font-bold">Home</li>
@@ -20,14 +22,71 @@
                 <li><i class="fa-solid fa-cart-shopping"></i>cart($56)</li>
             </ul>
         </nav>
+    </header>
+    <main>
         <!-- banner area  -->
-        <section class="max-w-[1440px] max-h-[461px] mx-auto my-[120px] flex items-end">
+        <section class="max-w-[1140px] max-h-[461px] mx-auto my-[120px] flex items-end">
            <div>
             <h1 class="text-[65px] font-bold">ALWAYS <span class="text-[#E95A08]">FRESH <br> FLOWERS</span></h1>
             <p class="text-2xl">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh flowers that are perfect for any occasion.</p>
            </div>
            <img src="./assets/hero-flower.png" alt="">
         </section>
-    </header>
+        <!-- plants card area  -->
+        <section class="max-w-[1140px] mx-auto text-center">
+            <h1 class="font-bold text-5xl"><span class="text-[#E95A08]">Our</span> Plants</h1>
+            <p class="text-2xl">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</p>
+            <div class="grid grid-cols-4 w-full gap-5 mt-12">
+                <div class="max-w-[270px] max-h-[484px] mb-8 text-center ">
+                    <img class="mb-7" src="./assets/sample-flower-image.png" alt="">
+                    <h5 class="font-medium text-2xl">Lily Blossom</h5>
+                    <h5 class="font-bold text-2xl">20 USD</h5>
+                    <button class="bg-[#E95A08] text-white w-[100%] py-5 mt-7">ADD TO CART</button>
+                </div>
+                <div class="max-w-[270px] max-h-[484px] mb-8 text-center ">
+                    <img class="mb-7" src="./assets/sample-flower-image.png" alt="">
+                    <h5 class="font-medium text-2xl">Lily Blossom</h5>
+                    <h5 class="font-bold text-2xl">20 USD</h5>
+                    <button class="bg-[#E95A08] text-white w-[100%] py-5 mt-7">ADD TO CART</button>
+                </div>
+                <div class="max-w-[270px] max-h-[484px] mb-8 text-center ">
+                    <img class="mb-7" src="./assets/sample-flower-image.png" alt="">
+                    <h5 class="font-medium text-2xl">Lily Blossom</h5>
+                    <h5 class="font-bold text-2xl">20 USD</h5>
+                    <button class="bg-[#E95A08] text-white w-[100%] py-5 mt-7">ADD TO CART</button>
+                </div>
+                <div class="max-w-[270px] max-h-[484px] mb-8 text-center ">
+                    <img class="mb-7" src="./assets/sample-flower-image.png" alt="">
+                    <h5 class="font-medium text-2xl">Lily Blossom</h5>
+                    <h5 class="font-bold text-2xl">20 USD</h5>
+                    <button class="bg-[#E95A08] text-white w-[100%] py-5 mt-7">ADD TO CART</button>
+                </div>
+                <div class="max-w-[270px] max-h-[484px] mb-8 text-center ">
+                    <img class="mb-7" src="./assets/sample-flower-image.png" alt="">
+                    <h5 class="font-medium text-2xl">Lily Blossom</h5>
+                    <h5 class="font-bold text-2xl">20 USD</h5>
+                    <button class="bg-[#E95A08] text-white w-[100%] py-5 mt-7">ADD TO CART</button>
+                </div>
+                <div class="max-w-[270px] max-h-[484px] mb-8 text-center ">
+                    <img class="mb-7" src="./assets/sample-flower-image.png" alt="">
+                    <h5 class="font-medium text-2xl">Lily Blossom</h5>
+                    <h5 class="font-bold text-2xl">20 USD</h5>
+                    <button class="bg-[#E95A08] text-white w-[100%] py-5 mt-7">ADD TO CART</button>
+                </div>
+                <div class="max-w-[270px] max-h-[484px] mb-8 text-center ">
+                    <img class="mb-7" src="./assets/sample-flower-image.png" alt="">
+                    <h5 class="font-medium text-2xl">Lily Blossom</h5>
+                    <h5 class="font-bold text-2xl">20 USD</h5>
+                    <button class="bg-[#E95A08] text-white w-[100%] py-5 mt-7">ADD TO CART</button>
+                </div>
+                <div class="max-w-[270px] max-h-[484px] mb-8 text-center ">
+                    <img class="mb-7" src="./assets/sample-flower-image.png" alt="">
+                    <h5 class="font-medium text-2xl">Lily Blossom</h5>
+                    <h5 class="font-bold text-2xl">20 USD</h5>
+                    <button class="bg-[#E95A08] text-white w-[100%] py-5 mt-7">ADD TO CART</button>
+                </div>
+            </div>
+        </section>
+    </main>
 </body>
 </html>
